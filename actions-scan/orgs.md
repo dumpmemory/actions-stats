@@ -41,14 +41,14 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | Repo                                | Total Runtime | Workflow Name                                 | Workflow Average Runtime | Workflow Total Runtime |
 +-------------------------------------+---------------+-----------------------------------------------+--------------------------+------------------------+
 | webp-sh/webp_server_node            | 0.0 mins      |                                               |                          |                        |
-| webp-sh/webp_server_go              | 164.12 mins   |                                               |                          |                        |
-|                                     |               | CI check on every PR                          | 3.43 mins                | 27.47 mins             |
-|                                     |               | CI check on every push                        | 0.87 mins                | 4.35 mins              |
-|                                     |               | CodeQL                                        | 1.72 mins                | 29.22 mins             |
-|                                     |               | Integration Tests                             | 2.26 mins                | 18.07 mins             |
+| webp-sh/webp_server_go              | 150.98 mins   |                                               |                          |                        |
+|                                     |               | CI check on every PR                          | 3.39 mins                | 23.73 mins             |
+|                                     |               | CI check on every push                        | 0.68 mins                | 2.73 mins              |
+|                                     |               | CodeQL                                        | 1.7 mins                 | 25.57 mins             |
+|                                     |               | Integration Tests                             | 2.28 mins                | 15.97 mins             |
 |                                     |               | Release Binaries                              | 3.75 mins                | 3.75 mins              |
-|                                     |               | Build and release docker images               | 10.34 mins               | 62.02 mins             |
-|                                     |               | go_modules in /. - Update #996731302          | 0.77 mins                | 19.25 mins             |
+|                                     |               | Build and release docker images               | 12.37 mins               | 61.87 mins             |
+|                                     |               | go_modules in /. - Update #996731302          | 0.76 mins                | 17.37 mins             |
 | webp-sh/webp                        | 0.0 mins      |                                               |                          |                        |
 | webp-sh/webp_server_python          | 0.0 mins      |                                               |                          |                        |
 | webp-sh/webp_server_java            | 0.0 mins      |                                               |                          |                        |
@@ -160,8 +160,8 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/logo                       | 0.0 mins      |                                                                       |                          |                        |
 | pingcap/goyacc                     | 0.0 mins      |                                                                       |                          |                        |
 | pingcap/goleveldb                  | 0.0 mins      |                                                                       |                          |                        |
-| pingcap/docs                       | 2358.42 mins  |                                                                       |                          |                        |
-|                                    |               | bot                                                                   | 0.48 mins                | 10.53 mins             |
+| pingcap/docs                       | 2357.98 mins  |                                                                       |                          |                        |
+|                                    |               | bot                                                                   | 0.48 mins                | 10.1 mins              |
 |                                    |               | ci                                                                    | 2.74 mins                | 1789.75 mins           |
 |                                    |               | JA Translation Cron                                                   | 1.53 mins                | 6.13 mins              |
 |                                    |               | Trigger docs.tidb.io update                                           | 0.19 mins                | 2.62 mins              |
@@ -197,12 +197,12 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/blog-cn                    | 0.0 mins      |                                                                       |                          |                        |
 |                                    |               | No workflow name(why?)                                                | 0.0 mins                 | 0.0 mins               |
 | pingcap/tikv-client-lib-java       | 0.0 mins      |                                                                       |                          |                        |
-| pingcap/tispark                    | 121.27 mins   |                                                                       |                          |                        |
+| pingcap/tispark                    | 121.23 mins   |                                                                       |                          |                        |
 |                                    |               | TLS test                                                              | 0.0 mins                 | 0.0 mins               |
 |                                    |               | No workflow name(why?)                                                | 0.0 mins                 | 0.0 mins               |
 |                                    |               | CodeQL                                                                | 12.41 mins               | 62.07 mins             |
 |                                    |               | Follower Read test                                                    | 0.0 mins                 | 0.0 mins               |
-|                                    |               | Close inactive issues                                                 | 0.21 mins                | 6.23 mins              |
+|                                    |               | Close inactive issues                                                 | 0.21 mins                | 6.2 mins               |
 |                                    |               | License checker                                                       | 0.7 mins                 | 2.78 mins              |
 |                                    |               | verify                                                                | 12.55 mins               | 50.18 mins             |
 |                                    |               | maven in /tikv-client for io.grpc:grpc-protobuf - Update #971539874   | 0.0 mins                 | 0.0 mins               |
