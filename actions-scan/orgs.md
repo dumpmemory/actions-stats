@@ -158,13 +158,13 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/logo                       | 0.0 mins      |                                                                       |                          |                        |
 | pingcap/goyacc                     | 0.0 mins      |                                                                       |                          |                        |
 | pingcap/goleveldb                  | 0.0 mins      |                                                                       |                          |                        |
-| pingcap/docs                       | 2932.93 mins  |                                                                       |                          |                        |
+| pingcap/docs                       | 2932.57 mins  |                                                                       |                          |                        |
 |                                    |               | Upload media files to Qiniu when they change                          | 2.09 mins                | 6.28 mins              |
 |                                    |               | Trigger docs site update                                              | 0.49 mins                | 79.2 mins              |
 |                                    |               | Automatic Rebase                                                      | 0.03 mins                | 31.9 mins              |
 |                                    |               | ci                                                                    | 3.03 mins                | 1962.22 mins           |
 |                                    |               | Links                                                                 | 1.85 mins                | 7.4 mins               |
-|                                    |               | bot                                                                   | 0.44 mins                | 9.25 mins              |
+|                                    |               | bot                                                                   | 0.44 mins                | 8.88 mins              |
 |                                    |               | JA Translation Cron                                                   | 1.39 mins                | 5.55 mins              |
 |                                    |               | Links (Fail Fast)                                                     | 0.74 mins                | 477.88 mins            |
 |                                    |               | Prevent Deletion                                                      | 0.48 mins                | 315.48 mins            |
@@ -173,16 +173,16 @@ Error: {'total_count': 0, 'workflow_runs': []}
 |                                    |               | Trigger docs.tidb.io update                                           | 0.17 mins                | 0.33 mins              |
 |                                    |               | AI Doc Review                                                         | 0.03 mins                | 37.43 mins             |
 | pingcap/docs-cn                    | 1995.2 mins   |                                                                       |                          |                        |
-|                                    |               | Upload media files to Qiniu when they change                          | 0.0 mins                 | 0.0 mins               |
-|                                    |               | Trigger docs site update                                              | 0.66 mins                | 74.12 mins             |
-|                                    |               | Automatic Rebase                                                      | 0.03 mins                | 21.53 mins             |
 |                                    |               | ci                                                                    | 4.0 mins                 | 1337.02 mins           |
-|                                    |               | Links                                                                 | 2.06 mins                | 8.25 mins              |
+|                                    |               | Trigger docs site update                                              | 0.66 mins                | 74.12 mins             |
+|                                    |               | AI Doc Review                                                         | 0.03 mins                | 23.62 mins             |
+|                                    |               | Flush PDF by Version                                                  | 0.0 mins                 | 0.0 mins               |
 |                                    |               | Flush All PDF                                                         | 0.66 mins                | 3.3 mins               |
 |                                    |               | Links (Fail Fast)                                                     | 0.98 mins                | 326.57 mins            |
+|                                    |               | Links                                                                 | 2.06 mins                | 8.25 mins              |
+|                                    |               | Upload media files to Qiniu when they change                          | 0.0 mins                 | 0.0 mins               |
 |                                    |               | Prevent Deletion                                                      | 0.6 mins                 | 200.8 mins             |
-|                                    |               | Flush PDF by Version                                                  | 0.0 mins                 | 0.0 mins               |
-|                                    |               | AI Doc Review                                                         | 0.03 mins                | 23.62 mins             |
+|                                    |               | Automatic Rebase                                                      | 0.03 mins                | 21.53 mins             |
 | pingcap/tidb-binlog                | 0.0 mins      |                                                                       |                          |                        |
 | pingcap/sqlgram                    | 0.0 mins      |                                                                       |                          |                        |
 | pingcap/mydumper                   | 0.0 mins      |                                                                       |                          |                        |
@@ -195,12 +195,12 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/blog-cn                    | 0.0 mins      |                                                                       |                          |                        |
 |                                    |               | No workflow name(why?)                                                | 0.0 mins                 | 0.0 mins               |
 | pingcap/tikv-client-lib-java       | 0.0 mins      |                                                                       |                          |                        |
-| pingcap/tispark                    | 12.35 mins    |                                                                       |                          |                        |
+| pingcap/tispark                    | 12.33 mins    |                                                                       |                          |                        |
 |                                    |               | TLS test                                                              | 0.0 mins                 | 0.0 mins               |
 |                                    |               | No workflow name(why?)                                                | 0.0 mins                 | 0.0 mins               |
 |                                    |               | CodeQL                                                                | 1.29 mins                | 5.17 mins              |
 |                                    |               | Follower Read test                                                    | 0.0 mins                 | 0.0 mins               |
-|                                    |               | Close inactive issues                                                 | 0.24 mins                | 7.18 mins              |
+|                                    |               | Close inactive issues                                                 | 0.24 mins                | 7.17 mins              |
 |                                    |               | License checker                                                       | 0.0 mins                 | 0.0 mins               |
 |                                    |               | verify                                                                | 0.0 mins                 | 0.0 mins               |
 |                                    |               | maven in /tikv-client for io.grpc:grpc-protobuf - Update #971539874   | 0.0 mins                 | 0.0 mins               |
