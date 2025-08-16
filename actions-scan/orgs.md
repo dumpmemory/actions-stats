@@ -40,14 +40,14 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | Repo                                | Total Runtime | Workflow Name                                         | Workflow Average Runtime | Workflow Total Runtime |
 +-------------------------------------+---------------+-------------------------------------------------------+--------------------------+------------------------+
 | webp-sh/webp_server_node            | 0.0 mins      |                                                       |                          |                        |
-| webp-sh/webp_server_go              | 53.4 mins     |                                                       |                          |                        |
+| webp-sh/webp_server_go              | 52.45 mins    |                                                       |                          |                        |
 |                                     |               | CI check on every PR                                  | 3.73 mins                | 7.45 mins              |
 |                                     |               | CI check on every push                                | 0.0 mins                 | 0.0 mins               |
 |                                     |               | CodeQL                                                | 1.53 mins                | 9.17 mins              |
 |                                     |               | Integration Tests                                     | 2.97 mins                | 5.93 mins              |
 |                                     |               | Release Binaries                                      | 0.0 mins                 | 0.0 mins               |
 |                                     |               | Build and release docker images                       | 0.0 mins                 | 0.0 mins               |
-|                                     |               | go_modules in /. - Update #1076048278                 | 1.29 mins                | 30.85 mins             |
+|                                     |               | go_modules in /. - Update #1076048278                 | 1.3 mins                 | 29.9 mins              |
 | webp-sh/webp                        | 0.0 mins      |                                                       |                          |                        |
 | webp-sh/webp_server_python          | 0.0 mins      |                                                       |                          |                        |
 | webp-sh/webp_server_java            | 0.0 mins      |                                                       |                          |                        |
@@ -136,9 +136,9 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/sqllogictest               | 0.0 mins        |                                                                                 |                          |                        |
 | pingcap/check                      | 0.0 mins        |                                                                                 |                          |                        |
 | pingcap/tidb-lmdb                  | 0.0 mins        |                                                                                 |                          |                        |
-| pingcap/tidb                       | 1832.4 mins     |                                                                                 |                          |                        |
-|                                    |                 | BR & Lightning                                                                  | 4.59 mins                | 820.98 mins            |
-|                                    |                 | Dumpling                                                                        | 8.77 mins                | 947.45 mins            |
+| pingcap/tidb                       | 1712.35 mins    |                                                                                 |                          |                        |
+|                                    |                 | BR & Lightning                                                                  | 4.55 mins                | 742.25 mins            |
+|                                    |                 | Dumpling                                                                        | 8.8 mins                 | 906.13 mins            |
 |                                    |                 | misc                                                                            | 2.09 mins                | 27.22 mins             |
 |                                    |                 | go_modules in /. - Update #1076224531                                           | 1.6 mins                 | 36.75 mins             |
 | pingcap/tidb-bench                 | 0.0 mins        |                                                                                 |                          |                        |
@@ -158,32 +158,32 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/logo                       | 0.0 mins        |                                                                                 |                          |                        |
 | pingcap/goyacc                     | 0.0 mins        |                                                                                 |                          |                        |
 | pingcap/goleveldb                  | 0.0 mins        |                                                                                 |                          |                        |
-| pingcap/docs                       | 2678.5 mins     |                                                                                 |                          |                        |
+| pingcap/docs                       | 2502.03 mins    |                                                                                 |                          |                        |
 |                                    |                 | Upload media files to Qiniu when they change                                    | 1.98 mins                | 13.85 mins             |
-|                                    |                 | Trigger docs site update                                                        | 0.14 mins                | 20.77 mins             |
-|                                    |                 | Automatic Rebase                                                                | 0.02 mins                | 19.5 mins              |
-|                                    |                 | ci                                                                              | 2.71 mins                | 1698.4 mins            |
+|                                    |                 | Trigger docs site update                                                        | 0.14 mins                | 20.47 mins             |
+|                                    |                 | Automatic Rebase                                                                | 0.02 mins                | 19.35 mins             |
+|                                    |                 | ci                                                                              | 2.71 mins                | 1686.5 mins            |
 |                                    |                 | Links                                                                           | 2.83 mins                | 11.32 mins             |
-|                                    |                 | bot                                                                             | 0.44 mins                | 9.63 mins              |
-|                                    |                 | Links (Fail Fast)                                                               | 0.35 mins                | 219.97 mins            |
-|                                    |                 | Prevent Deletion                                                                | 0.28 mins                | 185.72 mins            |
+|                                    |                 | bot                                                                             | 0.44 mins                | 9.18 mins              |
+|                                    |                 | Links (Fail Fast)                                                               | 0.35 mins                | 218.57 mins            |
+|                                    |                 | Prevent Deletion                                                                | 0.28 mins                | 184.47 mins            |
 |                                    |                 | JA Full Translation (Google version)                                            | 20.48 mins               | 20.48 mins             |
 |                                    |                 | Trigger docs.tidb.io update                                                     | 0.14 mins                | 1.43 mins              |
-|                                    |                 | AI Doc Review                                                                   | 0.02 mins                | 19.8 mins              |
+|                                    |                 | AI Doc Review                                                                   | 0.02 mins                | 19.65 mins             |
 |                                    |                 | Translation Cron                                                                | 2.15 mins                | 8.58 mins              |
 |                                    |                 | Translation(zh) by AI                                                           | 72.05 mins               | 288.18 mins            |
-|                                    |                 | ZH cloud translation switch                                                     | 160.87 mins              | 160.87 mins            |
-| pingcap/docs-cn                    | 1176.93 mins    |                                                                                 |                          |                        |
-|                                    |                 | Upload media files to Qiniu when they change                                    | 2.09 mins                | 8.35 mins              |
-|                                    |                 | Trigger docs site update                                                        | 0.13 mins                | 14.85 mins             |
-|                                    |                 | Automatic Rebase                                                                | 0.02 mins                | 10.25 mins             |
-|                                    |                 | ci                                                                              | 3.55 mins                | 966.55 mins            |
-|                                    |                 | Links                                                                           | 1.41 mins                | 5.63 mins              |
-|                                    |                 | Flush All PDF                                                                   | 0.66 mins                | 2.63 mins              |
-|                                    |                 | Links (Fail Fast)                                                               | 0.31 mins                | 84.02 mins             |
-|                                    |                 | Prevent Deletion                                                                | 0.26 mins                | 72.5 mins              |
+|                                    |                 | ZH cloud translation switch                                                     | 0.0 mins                 | 0.0 mins               |
+| pingcap/docs-cn                    | 1156.28 mins    |                                                                                 |                          |                        |
+|                                    |                 | ci                                                                              | 3.56 mins                | 949.42 mins            |
+|                                    |                 | Trigger docs site update                                                        | 0.13 mins                | 14.42 mins             |
+|                                    |                 | AI Doc Review                                                                   | 0.02 mins                | 11.37 mins             |
 |                                    |                 | Flush PDF by Version                                                            | 0.6 mins                 | 0.6 mins               |
-|                                    |                 | AI Doc Review                                                                   | 0.02 mins                | 11.55 mins             |
+|                                    |                 | Flush All PDF                                                                   | 0.66 mins                | 2.63 mins              |
+|                                    |                 | Links (Fail Fast)                                                               | 0.31 mins                | 82.7 mins              |
+|                                    |                 | Links                                                                           | 1.41 mins                | 5.63 mins              |
+|                                    |                 | Upload media files to Qiniu when they change                                    | 2.09 mins                | 8.35 mins              |
+|                                    |                 | Prevent Deletion                                                                | 0.26 mins                | 71.1 mins              |
+|                                    |                 | Automatic Rebase                                                                | 0.02 mins                | 10.07 mins             |
 | pingcap/tidb-binlog                | 0.0 mins        |                                                                                 |                          |                        |
 | pingcap/sqlgram                    | 0.0 mins        |                                                                                 |                          |                        |
 | pingcap/mydumper                   | 0.0 mins        |                                                                                 |                          |                        |
@@ -234,12 +234,12 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/tidb-insight               | 0.0 mins        |                                                                                 |                          |                        |
 |                                    |                 | No workflow name(why?)                                                          | 0.0 mins                 | 0.0 mins               |
 | pingcap/badger                     | 0.0 mins        |                                                                                 |                          |                        |
-| pingcap/tidb-operator              | 4617.08 mins    |                                                                                 |                          |                        |
+| pingcap/tidb-operator              | 4606.18 mins    |                                                                                 |                          |                        |
 |                                    |                 | No workflow name(why?)                                                          | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | add-v2-label                                                                    | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | auto-job-v2                                                                     | 0.16 mins                | 29.4 mins              |
 |                                    |                 | ci-v2                                                                           | 4.47 mins                | 799.97 mins            |
-|                                    |                 | ci                                                                              | 33.7 mins                | 3774.95 mins           |
+|                                    |                 | ci                                                                              | 33.91 mins               | 3764.05 mins           |
 |                                    |                 | e2e                                                                             | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Release v2.0.0-beta.4                                                           | 1.82 mins                | 5.45 mins              |
 |                                    |                 | Close stale issues/prs                                                          | 0.2 mins                 | 6.13 mins              |
@@ -283,12 +283,12 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/monitoring                 | 0.0 mins        |                                                                                 |                          |                        |
 |                                    |                 | go_modules in /. for github.com/go-git/go-git/v5 - Update #943766036            | 0.0 mins                 | 0.0 mins               |
 | pingcap/presentations              | 0.0 mins        |                                                                                 |                          |                        |
-| pingcap/tiflow                     | 1004404.72 mins |                                                                                 |                          |                        |
-|                                    |                 | Check & Build                                                                   | 13.65 mins               | 1037.55 mins           |
+| pingcap/tiflow                     | 1004264.05 mins |                                                                                 |                          |                        |
+|                                    |                 | Check & Build                                                                   | 12.12 mins               | 897.22 mins            |
 |                                    |                 | Design Docs Lint                                                                | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Upgrade DM via TiUP                                                             | 200.59 mins              | 42124.72 mins          |
 |                                    |                 | DM Chaos                                                                        | 200.6 mins               | 42126.55 mins          |
-|                                    |                 | Auto Assign to Bugs and Questions                                               | 0.17 mins                | 11.63 mins             |
+|                                    |                 | Auto Assign to Bugs and Questions                                               | 0.17 mins                | 11.3 mins              |
 |                                    |                 | DM Binlog 999999                                                                | 1392.03 mins             | 292325.53 mins         |
 |                                    |                 | Upstream Database Switch                                                        | 1392.03 mins             | 292325.63 mins         |
 |                                    |                 | No workflow name(why?)                                                          | 0.0 mins                 | 0.0 mins               |
