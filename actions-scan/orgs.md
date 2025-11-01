@@ -40,14 +40,14 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | Repo                                | Total Runtime | Workflow Name                                     | Workflow Average Runtime | Workflow Total Runtime |
 +-------------------------------------+---------------+---------------------------------------------------+--------------------------+------------------------+
 | webp-sh/webp_server_node            | 0.0 mins      |                                                   |                          |                        |
-| webp-sh/webp_server_go              | 44.82 mins    |                                                   |                          |                        |
+| webp-sh/webp_server_go              | 44.17 mins    |                                                   |                          |                        |
 |                                     |               | CI check on every PR                              | 4.27 mins                | 8.53 mins              |
 |                                     |               | CI check on every push                            | 0.0 mins                 | 0.0 mins               |
 |                                     |               | CodeQL                                            | 1.93 mins                | 11.57 mins             |
 |                                     |               | Integration Tests                                 | 3.85 mins                | 7.7 mins               |
 |                                     |               | Release Binaries                                  | 0.0 mins                 | 0.0 mins               |
 |                                     |               | Build and release docker images                   | 0.0 mins                 | 0.0 mins               |
-|                                     |               | go_modules in /. - Update #1139103463             | 0.71 mins                | 17.02 mins             |
+|                                     |               | go_modules in /. - Update #1139103463             | 0.71 mins                | 16.37 mins             |
 | webp-sh/webp                        | 0.0 mins      |                                                   |                          |                        |
 | webp-sh/webp_server_python          | 0.0 mins      |                                                   |                          |                        |
 | webp-sh/webp_server_java            | 0.0 mins      |                                                   |                          |                        |
@@ -158,13 +158,13 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/logo                       | 0.0 mins        |                                                                                         |                          |                        |
 | pingcap/goyacc                     | 0.0 mins        |                                                                                         |                          |                        |
 | pingcap/goleveldb                  | 0.0 mins        |                                                                                         |                          |                        |
-| pingcap/docs                       | 2548.52 mins    |                                                                                         |                          |                        |
+| pingcap/docs                       | 2547.82 mins    |                                                                                         |                          |                        |
 |                                    |                 | Upload media files to Qiniu when they change                                            | 1.88 mins                | 5.65 mins              |
 |                                    |                 | Trigger docs site update                                                                | 0.15 mins                | 14.07 mins             |
 |                                    |                 | Automatic Rebase                                                                        | 0.03 mins                | 29.37 mins             |
 |                                    |                 | ci                                                                                      | 2.78 mins                | 1756.88 mins           |
 |                                    |                 | Links                                                                                   | 1.07 mins                | 4.28 mins              |
-|                                    |                 | bot                                                                                     | 0.71 mins                | 15.62 mins             |
+|                                    |                 | bot                                                                                     | 0.71 mins                | 14.92 mins             |
 |                                    |                 | Links (Fail Fast)                                                                       | 0.37 mins                | 236.2 mins             |
 |                                    |                 | Prevent Deletion                                                                        | 0.36 mins                | 244.17 mins            |
 |                                    |                 | JA Full Translation (Google version)                                                    | 0.0 mins                 | 0.0 mins               |
