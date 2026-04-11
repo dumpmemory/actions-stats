@@ -135,18 +135,18 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/sqllogictest               | 0.0 mins        |                                                                                             |                          |                        |
 | pingcap/check                      | 0.0 mins        |                                                                                             |                          |                        |
 | pingcap/tidb-lmdb                  | 0.0 mins        |                                                                                             |                          |                        |
-| pingcap/tidb                       | 31126.08 mins   |                                                                                             |                          |                        |
-|                                    |                 | BR & Lightning                                                                              | 4.31 mins                | 960.28 mins            |
-|                                    |                 | Dumpling                                                                                    | 8.67 mins                | 910.43 mins            |
+| pingcap/tidb                       | 31445.1 mins    |                                                                                             |                          |                        |
+|                                    |                 | BR & Lightning                                                                              | 4.34 mins                | 880.78 mins            |
+|                                    |                 | Dumpling                                                                                    | 8.7 mins                 | 887.07 mins            |
 |                                    |                 | misc                                                                                        | 1.98 mins                | 1.98 mins              |
-|                                    |                 | go_modules in /. for go.opentelemetry.io/otel/sdk - Update #1316258352                      | 1.04 mins                | 29.12 mins             |
+|                                    |                 | go_modules in /. - Update #1316899821                                                       | 1.08 mins                | 31.28 mins             |
 |                                    |                 | Running Copilot coding agent                                                                | 0.0 mins                 | 0.0 mins               |
-|                                    |                 | Copilot code review                                                                         | 4.39 mins                | 122.8 mins             |
+|                                    |                 | Copilot code review                                                                         | 4.42 mins                | 128.27 mins            |
 |                                    |                 | Configured Graph Update: go_modules in /. #1316258085                                       | 0.83 mins                | 14.07 mins             |
-|                                    |                 | Bazel Crossbuild for TiDB/Lightning                                                         | 4.99 mins                | 9425.7 mins            |
-|                                    |                 | Bazel Lint Crossbuild                                                                       | 8.74 mins                | 14409.9 mins           |
-|                                    |                 | Update Bazel Files                                                                          | 2.32 mins                | 3391.37 mins           |
-|                                    |                 | Generate Bazel Files                                                                        | 4.26 mins                | 1860.43 mins           |
+|                                    |                 | Bazel Crossbuild for TiDB/Lightning                                                         | 5.02 mins                | 9275.5 mins            |
+|                                    |                 | Bazel Lint Crossbuild                                                                       | 8.7 mins                 | 14755.63 mins          |
+|                                    |                 | Update Bazel Files                                                                          | 2.25 mins                | 3400.33 mins           |
+|                                    |                 | Generate Bazel Files                                                                        | 4.23 mins                | 2070.18 mins           |
 | pingcap/tidb-bench                 | 0.0 mins        |                                                                                             |                          |                        |
 | pingcap/go-hbase                   | 0.0 mins        |                                                                                             |                          |                        |
 | pingcap/tso                        | 0.0 mins        |                                                                                             |                          |                        |
@@ -156,11 +156,11 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/tipb                       | 54.98 mins      |                                                                                             |                          |                        |
 |                                    |                 | Unit Test                                                                                   | 3.67 mins                | 54.98 mins             |
 |                                    |                 | Copilot code review                                                                         | 0.0 mins                 | 0.0 mins               |
-| pingcap/kvproto                    | 643.37 mins     |                                                                                             |                          |                        |
-|                                    |                 | C++ Test                                                                                    | 3.87 mins                | 255.43 mins            |
+| pingcap/kvproto                    | 638.23 mins     |                                                                                             |                          |                        |
+|                                    |                 | C++ Test                                                                                    | 3.87 mins                | 251.73 mins            |
 |                                    |                 | build-deb                                                                                   | 0.0 mins                 | 0.0 mins               |
-|                                    |                 | Golang Test                                                                                 | 0.97 mins                | 63.73 mins             |
-|                                    |                 | Rust Test                                                                                   | 4.86 mins                | 320.77 mins            |
+|                                    |                 | Golang Test                                                                                 | 0.97 mins                | 62.8 mins              |
+|                                    |                 | Rust Test                                                                                   | 4.93 mins                | 320.27 mins            |
 |                                    |                 | Copilot code review                                                                         | 2.77 mins                | 2.77 mins              |
 |                                    |                 | Graph Update: go_modules in /. #1288466946                                                  | 0.67 mins                | 0.67 mins              |
 | pingcap/etcdv3-gateway             | 0.0 mins        |                                                                                             |                          |                        |
@@ -168,43 +168,43 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/logo                       | 0.0 mins        |                                                                                             |                          |                        |
 | pingcap/goyacc                     | 0.0 mins        |                                                                                             |                          |                        |
 | pingcap/goleveldb                  | 0.0 mins        |                                                                                             |                          |                        |
-| pingcap/docs                       | 3121.97 mins    |                                                                                             |                          |                        |
+| pingcap/docs                       | 3209.5 mins     |                                                                                             |                          |                        |
 |                                    |                 | Upload media files to Tencent Cloud when they change                                        | 101.13 mins              | 404.53 mins            |
-|                                    |                 | Trigger docs site update                                                                    | 0.14 mins                | 14.98 mins             |
-|                                    |                 | Automatic Rebase                                                                            | 0.02 mins                | 23.4 mins              |
-|                                    |                 | ci                                                                                          | 2.9 mins                 | 1940.98 mins           |
+|                                    |                 | Trigger docs site update                                                                    | 0.14 mins                | 15.57 mins             |
+|                                    |                 | Automatic Rebase                                                                            | 0.02 mins                | 24.48 mins             |
+|                                    |                 | ci                                                                                          | 2.9 mins                 | 2015.78 mins           |
 |                                    |                 | Links                                                                                       | 1.6 mins                 | 8.02 mins              |
-|                                    |                 | bot                                                                                         | 0.64 mins                | 14.07 mins             |
-|                                    |                 | Links (Fail Fast)                                                                           | 0.38 mins                | 252.1 mins             |
-|                                    |                 | Prevent Deletion                                                                            | 0.32 mins                | 214.33 mins            |
+|                                    |                 | bot                                                                                         | 0.65 mins                | 13.57 mins             |
+|                                    |                 | Links (Fail Fast)                                                                           | 0.38 mins                | 260.55 mins            |
+|                                    |                 | Prevent Deletion                                                                            | 0.32 mins                | 223.03 mins            |
 |                                    |                 | JA Full Translation (Google version)                                                        | 0.0 mins                 | 0.0 mins               |
-|                                    |                 | AI Doc Review                                                                               | 0.02 mins                | 21.98 mins             |
-|                                    |                 | Translation Cron                                                                            | 1.07 mins                | 6.4 mins               |
-|                                    |                 | Translation(zh) by AI                                                                       | 10.16 mins               | 60.95 mins             |
+|                                    |                 | AI Doc Review                                                                               | 0.02 mins                | 23.23 mins             |
+|                                    |                 | Translation Cron                                                                            | 1.05 mins                | 6.32 mins              |
+|                                    |                 | Translation(zh) by AI                                                                       | 7.42 mins                | 44.53 mins             |
 |                                    |                 | ZH cloud translation switch                                                                 | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Sync Cloud ZH TOC Files                                                                     | 0.52 mins                | 0.52 mins              |
 |                                    |                 | Addressing comment on PR #21921                                                             | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Sync Docs Changes from ZH PR to EN PR                                                       | 0.0 mins                 | 0.0 mins               |
-|                                    |                 | Keywords                                                                                    | 0.28 mins                | 149.18 mins            |
+|                                    |                 | Keywords                                                                                    | 0.28 mins                | 158.85 mins            |
 |                                    |                 | Copilot code review                                                                         | 3.83 mins                | 7.65 mins              |
 |                                    |                 | Trigger docs-staging nextgen update                                                         | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Trigger preview site update                                                                 | 0.15 mins                | 2.87 mins              |
-| pingcap/docs-cn                    | 1188.52 mins    |                                                                                             |                          |                        |
+| pingcap/docs-cn                    | 1237.55 mins    |                                                                                             |                          |                        |
 |                                    |                 | Upload media files to Qiniu when they change                                                | 0.0 mins                 | 0.0 mins               |
-|                                    |                 | Trigger docs site update                                                                    | 0.14 mins                | 10.38 mins             |
-|                                    |                 | Automatic Rebase                                                                            | 0.02 mins                | 14.75 mins             |
-|                                    |                 | ci                                                                                          | 2.37 mins                | 861.75 mins            |
+|                                    |                 | Trigger docs site update                                                                    | 0.14 mins                | 10.68 mins             |
+|                                    |                 | Automatic Rebase                                                                            | 0.02 mins                | 15.2 mins              |
+|                                    |                 | ci                                                                                          | 2.37 mins                | 897.0 mins             |
 |                                    |                 | Links                                                                                       | 1.89 mins                | 7.57 mins              |
 |                                    |                 | Flush All PDF                                                                               | 0.68 mins                | 2.73 mins              |
-|                                    |                 | Links (Fail Fast)                                                                           | 0.31 mins                | 110.67 mins            |
-|                                    |                 | Prevent Deletion                                                                            | 0.28 mins                | 102.8 mins             |
+|                                    |                 | Links (Fail Fast)                                                                           | 0.31 mins                | 115.5 mins             |
+|                                    |                 | Prevent Deletion                                                                            | 0.28 mins                | 107.27 mins            |
 |                                    |                 | Flush PDF by Version                                                                        | 0.0 mins                 | 0.0 mins               |
-|                                    |                 | AI Doc Review                                                                               | 0.02 mins                | 13.97 mins             |
-|                                    |                 | npm_and_yarn in /. for axios - Update #1315101523                                           | 0.99 mins                | 8.92 mins              |
+|                                    |                 | AI Doc Review                                                                               | 0.02 mins                | 14.23 mins             |
+|                                    |                 | npm_and_yarn in /. for axios - Update #1316729140                                           | 1.0 mins                 | 9.98 mins              |
 |                                    |                 | Copilot code review                                                                         | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Trigger docs-staging nextgen update                                                         | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | No workflow name(why?)                                                                      | 0.0 mins                 | 0.0 mins               |
-|                                    |                 | Keywords                                                                                    | 0.24 mins                | 49.97 mins             |
+|                                    |                 | Keywords                                                                                    | 0.24 mins                | 52.37 mins             |
 |                                    |                 | Addressing comment on PR #20955                                                             | 2.51 mins                | 5.02 mins              |
 | pingcap/tidb-binlog                | 0.0 mins        |                                                                                             |                          |                        |
 | pingcap/sqlgram                    | 0.0 mins        |                                                                                             |                          |                        |
@@ -256,17 +256,17 @@ Error: {'total_count': 0, 'workflow_runs': []}
 | pingcap/tidb-insight               | 0.0 mins        |                                                                                             |                          |                        |
 |                                    |                 | No workflow name(why?)                                                                      | 0.0 mins                 | 0.0 mins               |
 | pingcap/badger                     | 0.0 mins        |                                                                                             |                          |                        |
-| pingcap/tidb-operator              | 2178.15 mins    |                                                                                             |                          |                        |
-|                                    |                 | auto-job-v2                                                                                 | 0.13 mins                | 11.67 mins             |
+| pingcap/tidb-operator              | 2368.77 mins    |                                                                                             |                          |                        |
+|                                    |                 | auto-job-v2                                                                                 | 0.13 mins                | 13.75 mins             |
 |                                    |                 | chaos                                                                                       | 0.0 mins                 | 0.0 mins               |
-|                                    |                 | ci-v2                                                                                       | 7.57 mins                | 567.8 mins             |
-|                                    |                 | .github/workflows/ci.yaml                                                                   | 15.11 mins               | 906.43 mins            |
-|                                    |                 | Dependabot post updates                                                                     | 2.64 mins                | 105.72 mins            |
+|                                    |                 | ci-v2                                                                                       | 7.61 mins                | 616.37 mins            |
+|                                    |                 | ci                                                                                          | 14.37 mins               | 1034.35 mins           |
+|                                    |                 | Dependabot post updates                                                                     | 2.87 mins                | 126.35 mins            |
 |                                    |                 | Release Charts v1                                                                           | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Release v2.1.0-alpha.16                                                                     | 1.96 mins                | 3.92 mins              |
 |                                    |                 | Copilot code review                                                                         | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Running Copilot                                                                             | 0.0 mins                 | 0.0 mins               |
-|                                    |                 | go_modules in /. for go.opentelemetry.io/otel/sdk - Update #1316574737                      | 4.32 mins                | 578.73 mins            |
+|                                    |                 | go_modules in /tools/helm for github.com/docker/cli - Update #1317534541                    | 4.19 mins                | 570.15 mins            |
 |                                    |                 | Configured Graph Update: go_modules in /. #1316574505                                       | 0.65 mins                | 3.88 mins              |
 | pingcap/vldb-boss-2018             | 0.0 mins        |                                                                                             |                          |                        |
 | pingcap/errors                     | 0.0 mins        |                                                                                             |                          |                        |
@@ -286,8 +286,8 @@ Error: {'total_count': 0, 'workflow_runs': []}
 |                                    |                 | Audit License                                                                               | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Unit Test                                                                                   | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Graph Update: go_modules in /. #1260450114                                                  | 0.0 mins                 | 0.0 mins               |
-| pingcap/tiflash                    | 77.38 mins      |                                                                                             |                          |                        |
-|                                    |                 | submodules in /. - Update #1315093513                                                       | 2.02 mins                | 44.37 mins             |
+| pingcap/tiflash                    | 77.1 mins       |                                                                                             |                          |                        |
+|                                    |                 | submodules in /. - Update #1316822564                                                       | 2.0 mins                 | 44.08 mins             |
 |                                    |                 | Copilot code review                                                                         | 4.72 mins                | 33.02 mins             |
 |                                    |                 | Addressing comment on PR #10721                                                             | 0.0 mins                 | 0.0 mins               |
 | pingcap/poco                       | 0.0 mins        |                                                                                             |                          |                        |
@@ -317,17 +317,17 @@ Error: {'total_count': 0, 'workflow_runs': []}
 |                                    |                 | Addressing comment on PR #994                                                               | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Graph Update: go_modules in /. #1290621002                                                  | 0.68 mins                | 0.68 mins              |
 | pingcap/presentations              | 0.0 mins        |                                                                                             |                          |                        |
-| pingcap/tiflow                     | 1012072.75 mins |                                                                                             |                          |                        |
-|                                    |                 | Check & Build                                                                               | 1234.31 mins             | 8640.2 mins            |
+| pingcap/tiflow                     | 1012353.52 mins |                                                                                             |                          |                        |
+|                                    |                 | Check & Build                                                                               | 812.07 mins              | 8932.78 mins           |
 |                                    |                 | Design Docs Lint                                                                            | 0.23 mins                | 0.23 mins              |
-|                                    |                 | Upgrade DM via TiUP                                                                         | 200.59 mins              | 42123.27 mins          |
-|                                    |                 | DM Chaos                                                                                    | 200.59 mins              | 42123.27 mins          |
-|                                    |                 | Auto Assign to Bugs and Questions                                                           | 0.19 mins                | 12.47 mins             |
-|                                    |                 | DM Binlog 999999                                                                            | 1392.03 mins             | 292325.42 mins         |
-|                                    |                 | Upstream Database Switch                                                                    | 1392.05 mins             | 292331.0 mins          |
+|                                    |                 | Upgrade DM via TiUP                                                                         | 200.57 mins              | 42118.95 mins          |
+|                                    |                 | DM Chaos                                                                                    | 200.57 mins              | 42119.75 mins          |
+|                                    |                 | Auto Assign to Bugs and Questions                                                           | 0.19 mins                | 12.62 mins             |
+|                                    |                 | DM Binlog 999999                                                                            | 1392.03 mins             | 292325.43 mins         |
+|                                    |                 | Upstream Database Switch                                                                    | 1392.05 mins             | 292331.03 mins         |
 |                                    |                 | DM Web UI Lint                                                                              | 0.0 mins                 | 0.0 mins               |
-|                                    |                 | Dataflow Engine Chaos                                                                       | 200.59 mins              | 42122.85 mins          |
-|                                    |                 | Mariadb Master Down and Up                                                                  | 1392.04 mins             | 292328.03 mins         |
+|                                    |                 | Dataflow Engine Chaos                                                                       | 200.57 mins              | 42118.73 mins          |
+|                                    |                 | Mariadb Master Down and Up                                                                  | 1392.04 mins             | 292327.97 mins         |
 |                                    |                 | Running Copilot coding agent                                                                | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Copilot code review                                                                         | 0.0 mins                 | 0.0 mins               |
 |                                    |                 | Graph Update: go_modules in /. #1291616788                                                  | 1.51 mins                | 3.02 mins              |
